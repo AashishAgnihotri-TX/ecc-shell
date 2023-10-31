@@ -46,6 +46,70 @@ const DDGrid = () => {
           state: "Arizona",
           country: "US",
         },
+        {
+          irn: 1,
+          occupancy: 25,
+          division: "HR",
+          location: "Phoenix",
+          state: "Arizona",
+          country: "US",
+        },
+        {
+          irn: 1,
+          occupancy: 25,
+          division: "HR",
+          location: "Phoenix",
+          state: "Arizona",
+          country: "US",
+        },
+        {
+          irn: 1,
+          occupancy: 25,
+          division: "HR",
+          location: "Phoenix",
+          state: "Arizona",
+          country: "US",
+        },
+        {
+          irn: 1,
+          occupancy: 25,
+          division: "HR",
+          location: "Phoenix",
+          state: "Arizona",
+          country: "US",
+        },
+        {
+          irn: 1,
+          occupancy: 25,
+          division: "HR",
+          location: "Phoenix",
+          state: "Arizona",
+          country: "US",
+        },
+        {
+          irn: 1,
+          occupancy: 25,
+          division: "HR",
+          location: "Phoenix",
+          state: "Arizona",
+          country: "US",
+        },
+        {
+          irn: 1,
+          occupancy: 25,
+          division: "HR",
+          location: "Phoenix",
+          state: "Arizona",
+          country: "US",
+        },
+        {
+          irn: 1,
+          occupancy: 25,
+          division: "HR",
+          location: "Phoenix",
+          state: "Arizona",
+          country: "US",
+        },
       ]);
     }, 1000);
   }, []);
@@ -53,7 +117,7 @@ const DDGrid = () => {
   return (
     <div>
       {/* On div wrapping Grid a) specify theme CSS Class Class and b) sets Grid size */}
-      <div className="ag-theme-alpine w-auto h-screen flex-col items-center justify-center">
+      <div className="ag-theme-alpine w-screen h-screen flex-col items-center justify-center">
         <AgGridReact
           ref={gridRef} // Ref for accessing Grid's API
           rowData={rowData} // Row Data for Rows

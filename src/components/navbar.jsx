@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 import drawerOpen from "../assets/drawer-dark.png";
-import drawerClose from "../assets/drawer-light.png";
 import { Divider, Drawer, FormControl, MenuItem, Select } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { Link } from "react-router-dom";
